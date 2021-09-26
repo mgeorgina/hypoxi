@@ -250,14 +250,14 @@ button {
 
 .test-inactive {
   background:
-    url(../images/testkezeles_inactive.jpg) no-repeat,
+    url(../images/testkezeles_inactive.png) no-repeat,
     url(../images/testkezeles.jpg) no-repeat;
   background-size: cover;
 }
 
 .kozm-inactive {
   background:
-    url(../images/kozmetika_inactive.jpg) no-repeat,
+    url(../images/kozmetika_inactive.png) no-repeat,
     url(../images/kozmetika.jpg) no-repeat;
   background-size: cover;
 }
