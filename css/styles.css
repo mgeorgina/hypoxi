@@ -20,7 +20,7 @@ p {
 }
 
 .top-content {
-  margin-top: 100px;
+  margin-top: 140px;
 }
 
 span {
@@ -121,7 +121,7 @@ h5 {
 
 .container-fluid {
   background-color: #F9F3F3;
-  height: 60px;
+  height: 70px;
 }
 
 .navbar-header {
@@ -147,8 +147,14 @@ h5 {
 }
 
 .hamburger-button {
-  width: 55px;
-  height: 55px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+.navbar-toggler-icon {
+  width: 20px !important;
+  height: 20px !important;
 }
 
 .active {
