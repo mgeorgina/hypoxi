@@ -421,6 +421,14 @@ table {
   table-layout: fixed;
 }
 
+table td {
+  vertical-align: middle;
+}
+
+.table-arckezelesek {
+  table-layout: auto;
+}
+
 /* ELÉRHETŐSÉG */
 .img-terkep {
   width: 70%;
