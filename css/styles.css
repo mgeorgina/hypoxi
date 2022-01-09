@@ -19,19 +19,35 @@ p {
   position: relative;
 }
 
-.top-content {
-  margin-top: 140px;
-}
-
 span {
   display: inline-block;
   vertical-align: middle;
 }
 
 .description {
-  background-color: #F9F3F3;
   padding: 40px;
   position: relative;
+
+  /* background pattern */
+  background-color: #F9F3F3;
+  background-size: 48px 48px;
+  background-image: radial-gradient(
+    transparent 20px,
+    #FFFDF9 20px,
+    #FFFDF9 24px,
+    transparent 24px
+    ),
+  radial-gradient(
+    transparent 20px,
+    #FFFDF9 20px,
+    #FFFDF9 24px,
+    transparent 24px
+    );
+  background-position: 0 0 , 24px 24px;
+}
+
+.description a {
+  color: #E5CDCD;
 }
 
 .description-a {
@@ -80,6 +96,10 @@ h5 {
   text-align: center;
 }
 
+.top-flowers {
+  margin-top: 50px;
+}
+
 .flower {
   width: 40px;
   height: 40px;
@@ -122,6 +142,23 @@ h5 {
 .container-fluid {
   background-color: #F9F3F3;
   height: 70px;
+
+  /* background pattern */
+  background-color: #F9F3F3;
+  background-size: 48px 48px;
+  background-image: radial-gradient(
+    transparent 20px,
+    #FFFDF9 20px,
+    #FFFDF9 24px,
+    transparent 24px
+    ),
+  radial-gradient(
+    transparent 20px,
+    #FFFDF9 20px,
+    #FFFDF9 24px,
+    transparent 24px
+    );
+  background-position: 0 0 , 24px 24px;
 }
 
 .navbar-header {
@@ -202,11 +239,16 @@ h5 {
 /* INTRO */
 .top-container {
   width: 60%;
-  margin: 100px auto;
+  margin: 50px auto;
   background-color: #F9F3F3;
   padding: 20px 30px;
   position: relative;
   border-radius: 10px;
+  text-align: justify;
+}
+
+.top-container a {
+  color: #E5CDCD;
 }
 
 .flower-1 {
@@ -352,8 +394,23 @@ button {
   margin-top: 200px;
   font-size: 0.8rem;
   text-align: center;
-  background-color: #F9F3F3;
   color: #686D76;
+  /* background pattern */
+  background-color: #F9F3F3;
+  background-size: 48px 48px;
+  background-image: radial-gradient(
+    transparent 20px,
+    #FFFDF9 20px,
+    #FFFDF9 24px,
+    transparent 24px
+    ),
+    radial-gradient(
+      transparent 20px,
+      #FFFDF9 20px,
+      #FFFDF9 24px,
+      transparent 24px
+      );
+  background-position: 0 0 , 24px 24px;
 }
 
 a {
